@@ -1,8 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import firebase from 'firebase';
+
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import './css/index.css';
+
+firebase.initializeApp({
+  apiKey: "AIzaSyCJVBraLv97Zn3Aqbf6iZW5zBzQPBQB3Wc",
+  authDomain: "treelud-g.firebaseapp.com",
+  databaseURL: "https://treelud-g.firebaseio.com",
+  projectId: "treelud-g",
+  storageBucket: "treelud-g.appspot.com",
+  messagingSenderId: "918604255085"
+});
 
 ReactDOM.render(<App />, document.getElementById('root'));
 
