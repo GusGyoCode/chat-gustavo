@@ -53,7 +53,7 @@ class App extends Component {
       })
       this.setState({ notes });
     });
-
+    //ESta causando bugs
     this.db.on('child_removed', snap =>{
       for(let i=0; i < notes.length; i++){
         if(notes[i].noteId = snap.key){

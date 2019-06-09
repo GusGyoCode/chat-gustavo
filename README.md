@@ -1,3 +1,8 @@
+## Archivo fallando 
+
+el archivo que esta causando el bug es el principal de App.js que esta en Component
+exactamente la funcion componentDidMount en el area de remover una nota causa un bug al actualizar
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
