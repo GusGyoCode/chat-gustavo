@@ -1,0 +1,43 @@
+.NoteForm{
+  margin: 20px auto;
+  display: block;
+  width: 90%;
+  padding: 10px; 
+  background: #fff;
+}
+.NoteForm h2{
+  color: #ABABAB;
+  width: 250px;
+  font-size: 30px;
+  font-family: 'Acme', sans-serif;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+.NoteForm input, .NoteForm textarea{
+  width: 70%;
+  margin: 10px auto;
+  display: block;
+  padding: 8px;
+  border: solid 2px #ccc;
+  font-size: 20px;
+}
+.NoteForm button{
+  background: #ccc;
+  padding: 15px;
+  margin: 10px auto;
+  display: block;
+  border: none;
+  font-size: 20px;
+  color: #535353;
+  cursor: pointer;
+}
+.NoteForm button:hover{
+  background: #535353;
+  color: #ccc;
+}
+@media(min-width:480px){
+  .NoteForm{
+    width: 400px;
+  }
+}
